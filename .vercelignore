@@ -1,0 +1,45 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.dll
+*.so
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.cert
+
+# Databases & Runtime State
+*.db
+*.sqlite
+*.sqlite3
+instance/
+logs/
+*.log
+
+# Tests & Caches
+tests/
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/

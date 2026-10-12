@@ -1,0 +1,46 @@
+# Python & Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.cert
+
+# Database
+*.db
+*.sqlite3
+*.sqlite
+instance/
+instance/*.db
+
+# Logs & Debug
+logs/
+*.log
+npm-debug.log*
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
